@@ -1,0 +1,25 @@
+.form-wrap {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+.add-item {
+	width: 20%;
+	height: 40px;
+	background-color: transparent;
+	font-size: 14px;
+	color: green;
+	border: 1px solid green;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.add-item:hover {
+	background-color: green;
+	color: white;
+}
+
+.form-wrap input {
+	height: 40px;
+	margin-right: 10px;
+}

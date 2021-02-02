@@ -1,0 +1,10 @@
+.search {
+	margin: 0;
+	margin-bottom: 20px;
+	margin-right: auto;
+	padding: 0 6px;
+	vertical-align: middle;
+	line-height: 1;
+	height: 38px;
+	box-sizing: border-box;
+}

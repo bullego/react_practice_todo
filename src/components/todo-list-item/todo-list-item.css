@@ -1,0 +1,33 @@
+.todo-list-item {
+	display: flex;
+	align-items: center;
+	font-size: 1.25rem;
+}
+
+.todo-list-item button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 36px;
+	margin: 4px;
+	font-size: 1.25rem;
+}
+
+.todo-list-item.done  .todo-list-item-dealName {
+	text-decoration: line-through;
+}
+
+.todo-list-item.important  .todo-list-item-dealName {
+	color: steelblue;
+	font-weight: bold;
+}
+
+.todo-list-item-dealName {
+	font-size: 1.25rem;
+	margin-left: 1.25rem;
+	margin-right: auto;
+	line-height: 36px;
+	cursor: pointer;
+	user-select: none;
+}
+
